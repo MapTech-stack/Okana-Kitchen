@@ -561,7 +561,14 @@ About Page
 }
 .about-img {
   border-radius: var(--borderRadius);
-  height: 300px;
+  height: 100%;
+
+  /* border:  solid red; */
+
+  width: 100%;
+
+  overflow: hidden;
+  object-fit: contain;
 }
 
 @media screen and (min-width: 992px) {
